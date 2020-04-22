@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/kutuphane_profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_kullanici_islemleri"
+            android:icon="@drawable/kutuphane_profil"
+            android:title="Kullanıcı İşlemleri" />
+        <item
+            android:id="@+id/nav_arama"
+            android:icon="@drawable/kutuphane_arama"
+            android:title="Arama" />
+        <item
+            android:id="@+id/nav_hakkimizda"
+            android:icon="@drawable/kutuphane_hakkimizda"
+            android:title="Hakkımızda" />
+        <item
+            android:id="@+id/nav_iletisim"
+            android:icon="@drawable/kutuphane_iletisim"
+            android:title="İletişim" />
+        <item
+            android:id="@+id/nav_cikis_yap"
+            android:icon="@drawable/kutuphane_cikis_yap"
+            android:title="Çıkış Yap" />
+    </group>
+</menu>

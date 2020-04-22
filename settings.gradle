@@ -1,0 +1,2 @@
+rootProject.name='kutuphane2'
+include ':app', ':jtds-1.2.5'
