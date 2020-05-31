@@ -1,5 +1,6 @@
 package com.example.kutuphane2;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -23,6 +24,11 @@ public class FragmentKullaniciIletisim extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_kullanici_iletisim, container, false);
+        View view = inflater.inflate(R.layout.fragment_kullanici_iletisim, container, false);
+
+        Intent intentKullaniciIletisim = new Intent(getActivity(), KullaniciIletisimActivity.class);
+        getActivity().startActivity(intentKullaniciIletisim);
+
+        return view;
     }
 }

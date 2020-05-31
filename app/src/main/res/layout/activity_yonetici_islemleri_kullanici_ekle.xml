@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YoneticiIslemleriKullaniciEkleActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarYöneticiIslemleriKullaniciEkle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Bilgileri"
+        android:textSize="25dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Soyadı"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleTc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Tc"
+        android:layout_marginTop="190dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleDogumTarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Doğum Tarihi"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleCinsiyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Cinsiyet"
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleKayitTarihi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Kayıt Tarihi"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleTelefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Telefon"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Mail"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtKullaniciEkleOkunanKitaplar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Okunan Kitaplar"
+        android:layout_marginTop="490dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adres Bilgileri"
+        android:textSize="25dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresIl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İl"
+        android:layout_marginTop="570dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresIlce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İlçe"
+        android:layout_marginTop="620dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresMahalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mahalle"
+        android:layout_marginTop="670dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresCadde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cadde"
+        android:layout_marginTop="720dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresSokak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sokak"
+        android:layout_marginTop="770dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No"
+        android:layout_marginTop="820dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresKat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kat"
+        android:layout_marginTop="870dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresDaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Daire"
+        android:layout_marginTop="920dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <EditText
+        android:id="@+id/txtAdresPostaKodu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Posta Kodu"
+        android:layout_marginTop="970dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <Button
+        android:id="@+id/btnKullaniciEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Ekle"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1020dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background"/>
+
+    </RelativeLayout>
+
+</ScrollView>

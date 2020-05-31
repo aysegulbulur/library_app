@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciProfilActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarKullaniciProfil"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ad:"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilAd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilSoyad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soyad:"
+        android:textSize="20dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/txtKullaniciProfilSoyad2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="90dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilTc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tc"
+        android:textSize="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilTc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilDogumTarihi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğum Tarihi:"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="20dp"/>
+    <TextView
+        android:id="@+id/txtKullaniciProfilDogumTarihi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="160dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilCinsiyet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinsiyet:"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilCinsiyet2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="110dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilKayitTarihi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Tarihi:"
+        android:textSize="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilKayitTarihi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="140dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilTelefon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefon:"
+        android:textSize="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilTelefon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="105dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mail:"
+        android:textSize="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilMail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="70dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilOkunanKitaplar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okunan Kitaplar:"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtKullaniciProfilOkunanKitaplar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="175dp"/>
+
+</RelativeLayout>

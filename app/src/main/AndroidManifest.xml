@@ -11,6 +11,80 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".YoneticiIslemleriKullaniciGuncellemeIslemiActivity"
+            android:parentActivityName=".YoneticiIslemleriKullaniciGuncelleActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKullaniciGuncelleActivity"
+            android:parentActivityName=".YoneticiIslemleriKullaniciEkleSilGuncelleActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKullaniciSilActivity"
+            android:parentActivityName=".YoneticiIslemleriKullaniciEkleSilGuncelleActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKullaniciEkleActivity"
+            android:parentActivityName=".YoneticiIslemleriKullaniciEkleSilGuncelleActivity" />
+        <activity
+            android:name=".YoneticiIslemleriMasaDurumuActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriIstatistikselRaporActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKategorilerActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKullanicidaOlanKitaplarActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKitapEkleSilGuncelleActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKitapListesiActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKullaniciEkleSilGuncelleActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKullaniciListesiActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriKutuphaneActivity"
+            android:parentActivityName=".YoneticiIslemleriActivity" />
+        <activity
+            android:name=".YoneticiIslemleriActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".YoneticiIletisimActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".YoneticiHakkimizdaActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".YoneticiAramaActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".YoneticiProfilActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".KullaniciIslemleriActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".KullaniciIletisimActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".KullaniciHakkimizdaActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".KullaniciAramaActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".KullaniciProfilActivity"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".KullaniciIadeEttiklerimActivity"
+            android:parentActivityName=".KullaniciIslemleriActivity" />
+        <activity
+            android:name=".KullaniciUzerimdekiKitaplarActivity"
+            android:parentActivityName=".KullaniciIslemleriActivity" />
         <activity
             android:name=".YoneticiGirisiActivity"
             android:parentActivityName=".GirisYapActivity" />

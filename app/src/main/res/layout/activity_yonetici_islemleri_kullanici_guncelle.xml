@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YoneticiIslemleriKullaniciGuncelleActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarYöneticiIslemleriKullaniciGuncelle"/>
+
+    <SearchView
+        android:id="@+id/KullaniciGuncelle"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"/>
+
+    <ListView
+        android:id="@+id/KullaniciGuncelleListe"
+        android:layout_below="@+id/KullaniciGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"/>
+
+    <Button
+        android:id="@+id/btnKullaniciGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Güncelle"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/button_background"/>
+
+</RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.kutuphane2;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -23,6 +24,11 @@ public class FragmentYoneticiHakkimizda extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_yonetici_hakkimizda, container, false);
+        View view = inflater.inflate(R.layout.fragment_yonetici_hakkimizda, container, false);
+
+        Intent intentYoneticiHakkimizda = new Intent(getActivity(), YoneticiHakkimizdaActivity.class);
+        getActivity().startActivity(intentYoneticiHakkimizda);
+
+        return view;
     }
 }
